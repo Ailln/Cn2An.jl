@@ -1,0 +1,10 @@
+name = "Cn2An"
+uuid = "8e81a8c7-bcc1-427a-a96d-044c48f48ed2"
+authors = ["Ailln <kinggreenhall@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1.4"
