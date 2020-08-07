@@ -4,20 +4,23 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Ailln/cn2an/blob/master/LICENSE)
 [![stars](https://img.shields.io/github/stars/Ailln/Cn2An.jl.svg)](https://github.com/Ailln/Cn2An.jl/stargazers)
 
-Convert Chinese Numerals To Arabic Numerals With Julia Language.
+🚀 Convert Chinese Numerals To Arabic Numerals With Julia Language.
 
-You can learn by referring to the functions of this libray: [cn2an](https://github.com/Ailln/cn2an).
+> You can learn by referring to the functions of this libray: [cn2an](https://github.com/Ailln/cn2an).
 
 ## Install
 
 ```bash
 ## In Julia REPL
+
 julia> ]
 pkg> add Cn2An
 # or
 pkg> add https://github.com/Ailln/Cn2An.jl
 
+
 ## In Julia file and REPL
+
 using Pkg
 Pkg.add("Cn2An")
 # or
@@ -30,8 +33,10 @@ Pkg.add(PackageSpec(url="https://github.com/Ailln/Cn2An.jl"))
 import Cn2An:cn2an
 import Cn2An:an2cn
 
+
 println(cn2an("一百二十三"))
 # 123
+
 println(an2cn(123))
 # 一百二十三
 ```
@@ -54,6 +59,6 @@ From the results, we can see that Julia is almost **three times faster**!
 
 ## Reference
 
-- [Pkg.jl Introduction](https://julialang.github.io/Pkg.jl/v1/)
 - [Julia Hub](https://juliahub.com/ui/Home)
+- [Pkg.jl Introduction](https://julialang.github.io/Pkg.jl/v1/)
 - [cn2an python version](https://github.com/Ailln/cn2an)
